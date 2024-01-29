@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.navegacion{
+    width: 100%;
+    border-color: #00ffff 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner{
+    width: 15%;
+    height: 10%;
+
+}
+nav{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #000 solid 1px;
+    margin: 1%; 
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+main{
+    height: 90vh;
+    width: 90%;
+    margin-left: 3%;
+}
+.secciones{
+    border: 1px solid #000000;
+    flex: 4;
+}
+main aside{
+    border: #000 1px solid;
+    flex: 1;
+}
