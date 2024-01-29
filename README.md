@@ -5,7 +5,7 @@ _Web en español de actualidad ideal para los aficionados al motor._
 ## Comenzando 🚀
 
 _La web permanece actualmente en **construcción**, pero puedes visitarla cuando quieras desde el siguiente enlace:_
-* [EL MOTORISTTA](https://acortar.link/8O8kud)
+* [EL MOTORISTTA](https://acortar.link/HcE3Dj)
 
 ## Construido con 🛠️
 
