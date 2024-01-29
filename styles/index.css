@@ -35,7 +35,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #000 solid 1px;
+   /* border: #000 solid 1px;*/
     margin: 1%;
 }
 
@@ -68,7 +68,7 @@ main {
 }
 
 .secciones {
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     flex: 4;
     margin: 1%;
     display: grid;
@@ -78,7 +78,7 @@ main {
 .secciones section {
     width: 99%;
     margin: 10px;
-    border: 1px solid #000000;
+   /* border: 1px solid #000000;*/
 }
 
 .secciones section p {
