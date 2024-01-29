@@ -1,81 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-
-html{
+html {
     height: 100%;
 }
-body{
+
+body {
     margin: 0;
     box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
 }
-.navegacion{
+
+.navegacion {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.banner{
+
+.banner {
     width: 15%;
     height: 10%;
 
 }
-nav{
+
+nav {
     width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
     border: #000 solid 1px;
-    margin: 1%; 
+    margin: 1%;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
     gap: 50px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     font-weight: bold;
     color: #000;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     text-decoration: underline red;
-    
+
 
 }
-main{
+
+main {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1%;
 }
-.secciones{
+
+.secciones {
     border: 1px solid #000000;
     flex: 4;
     margin: 1%;
     display: grid;
     place-items: center;
 }
-.secciones section{
+
+.secciones section {
     width: 99%;
     margin: 10px;
     border: 1px solid #000000;
 }
-.secciones section p{
+
+.secciones section p {
     margin: 10px;
 }
-.secciones section H2{
+
+.secciones section H2 {
     margin: 10px;
 }
-main aside{
+
+main aside {
     border: #000 1px solid;
     flex: 2;
     margin: 1%;
 }
+
 .noticia {
     display: grid;
     grid-template-columns: 20% 80%;
     font-size: 20px;
-  }
+}
