@@ -7,7 +7,6 @@ body{
 }
 .navegacion{
     width: 100%;
-    border-color: #00ffff 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,9 +33,10 @@ nav ul{
     gap: 50px;
 }
 main{
-    height: 90vh;
     width: 90%;
     margin-left: 3%;
+    display: flex;
+    gap: 10px;
 }
 .secciones{
     border: 1px solid #000000;
