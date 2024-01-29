@@ -1,3 +1,5 @@
+
+
 html{
     height: 100%;
 }
@@ -53,14 +55,27 @@ main{
     border: 1px solid #000000;
     flex: 4;
     margin: 1%;
+    display: grid;
+    place-items: center;
 }
 .secciones section{
-    width: 90%;
+    width: 99%;
     margin: 10px;
     border: 1px solid #000000;
+}
+.secciones section p{
+    margin: 10px;
+}
+.secciones section H2{
+    margin: 10px;
 }
 main aside{
     border: #000 1px solid;
     flex: 2;
     margin: 1%;
 }
+.noticia {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    font-size: 20px;
+  }
