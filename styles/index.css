@@ -8,12 +8,6 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: "Nunito Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100,
-        "YTLC" 500;
 }
 
 .navegacion {
@@ -99,4 +93,28 @@ main aside {
     display: grid;
     grid-template-columns: 20% 80%;
     font-size: 20px;
+}
+.dacia{
+    width: 430%;
+}
+.imagenNoticia{
+    width: 20%;
+}
+.textoNoticia{
+    width: 80%;
+}
+.seat{
+    width: 450%;
+}
+.mercedes{
+    width: 430%;
+}
+.cupra{
+    width: 430%;
+}
+.toyota{
+    width: 500%;
+}
+.ferrari{
+    width: 380%;
 }
