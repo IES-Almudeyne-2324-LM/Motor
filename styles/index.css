@@ -57,7 +57,6 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 1%;
 }
 
@@ -84,7 +83,6 @@ main {
 }
 
 main aside {
-    border: #000 1px solid;
     flex: 2;
     margin: 1%;
 }
@@ -107,6 +105,9 @@ main aside {
 
 .textoNoticia {
     width: 80%;
+}
+.textoNoticia h2:hover {
+    text-decoration: underline 3px red;
 }
 
 .seat {
@@ -134,4 +135,36 @@ main aside {
 } 
 .mclaren{
     width: 380%;
+}
+.busqueda{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+.formbusqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+.textobusqueda{
+    width: 95%;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.imgbusqueda{
+    width: 5%;
+}
+.mininoticia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1%;
+}
+.mininoticia img{
+    width: 50%;
 }
