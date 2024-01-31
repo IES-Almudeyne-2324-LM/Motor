@@ -101,6 +101,8 @@ main aside {
 
 .imagenNoticia {
     width: 20%;
+    display: flex;
+    align-items: center;
 }
 
 .textoNoticia {
@@ -130,3 +132,6 @@ main aside {
 .amartin {
     width: 450%;
 } 
+.mclaren{
+    width: 380%;
+}
