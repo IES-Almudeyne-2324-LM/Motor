@@ -204,3 +204,6 @@ main aside {
     margin: auto;
     
 }
+picture *{
+    width: 300%;
+}
