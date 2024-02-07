@@ -8,6 +8,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: "Nunito Sans", sans-serif;
+    overflow-x: hidden;
 }
 
 .navegacion {
@@ -58,4 +59,8 @@ main {
     display: flex;
     justify-content: center;
     gap: 1%;
+}
+article{
+    margin: 2rem;
+    max-width: 75%;
 }
