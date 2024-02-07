@@ -60,6 +60,11 @@ main {
     gap: 1%;
 }
 
+.leermas:hover {
+    color: red;
+    text-decoration: underline red;
+}
+
 h1 {
     text-align: center;
 }
@@ -110,8 +115,10 @@ main aside {
 .textoNoticia {
     width: 80%;
 }
+
 .textoNoticia h2:hover {
-    text-decoration: underline 3px red;
+    color: red;
+    border-bottom: red 1px solid;
 }
 
 .seat {
@@ -136,39 +143,45 @@ main aside {
 
 .amartin {
     width: 450%;
-} 
-.mclaren{
+}
+
+.mclaren {
     width: 380%;
 }
-.busqueda{
+
+.busqueda {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1em;
 }
-.formbusqueda{
+
+.formbusqueda {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 95%;
 }
-.textobusqueda{
+
+.textobusqueda {
     width: 95%;
     border: none;
     border-bottom: 1px solid #000;
 }
 
-.imgbusqueda{
+.imgbusqueda {
     width: 5%;
 }
-.mininoticia{
+
+.mininoticia {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 1%;
 }
-.mininoticia img{
+
+.mininoticia img {
     width: 50%;
 }
