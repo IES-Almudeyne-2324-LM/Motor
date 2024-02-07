@@ -60,6 +60,10 @@ main {
     gap: 1%;
 }
 
+h1 {
+    text-align: center;
+}
+
 .secciones {
     /* border: 1px solid #000000; */
     flex: 4;
@@ -134,9 +138,6 @@ main aside {
     width: 450%;
 } 
 .mclaren{
-    width: 380%;
-}
-.renault{
     width: 380%;
 }
 .busqueda{

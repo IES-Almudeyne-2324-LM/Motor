@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.navegacion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner {
+    width: 15%;
+    height: 10%;
+
+}
+
+nav {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: #000 solid 1px;*/
+    margin: 1%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+nav ul li a:hover {
+    text-decoration: underline red;
+
+
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
