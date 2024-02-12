@@ -231,10 +231,10 @@ footer{
     flex-direction: row;
     width: 95%;
 }
-.foot1{
+#foot1{
     flex: 4;
 }
-.foot2{
+#foot2{
     flex: 2;
 }
 .foot2 p{
