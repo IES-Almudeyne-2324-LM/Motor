@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
+::selection{
+    color: white;
+    background-color: red;
+}
+
 html {
     height: 100%;
 }
@@ -11,7 +16,14 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
-
+.contenedorfotoheader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fotoheader{
+    width: 70%;
+}
 .navegacion {
     width: 100%;
     display: flex;
@@ -183,7 +195,6 @@ main aside {
     flex-direction: column;
     margin: 1%;
 }
-
 .mininoticia img {
     width: 50%;
 }
@@ -206,4 +217,26 @@ main aside {
 }
 picture *{
     width: 300%;
+}
+footer{
+    display: grid;
+    place-items: center;
+    background-color: rgb(228, 223, 223);
+    padding-top: 1rem;
+    border-top: 1px solid black;
+}
+.contenedorfooter{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+.foot1{
+    flex: 4;
+}
+.foot2{
+    flex: 2;
+}
+.foot2 p{
+    display: flex;
+    align-items: center;
 }

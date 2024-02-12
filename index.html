@@ -10,29 +10,31 @@
     <link rel="icon" href="icons/logo.png" type="image/png">
     <title>El Motoristta - Noticias sobre el mundo del motor</title>
     <link rel="stylesheet" href="styles/index.css">
-
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 
 <body>
-    <div class="navegacion">
-        <nav>
-            <img id="inicio" src="images/banner.png" alt="LogoPagina" class="banner">
-            <ul>
-                <li><a href="index.html">Noticias</a></li>
-                <li><a href="#">Formula 1</a></li>
-                <li><a href="#">Dakar</a></li>
-                <li><a href="#">Rally</a></li>
-                <li><a href="#">Moto GP</a></li>
-                <li><a href="#">Indy car</a></li>
-            </ul>
-        </nav>
-    </div>
-    <hr style="width: 95%;">
+    <header>
+        <div class="navegacion">
+            <nav>
+                <img id="inicio" src="images/banner.png" alt="LogoPagina" class="banner">
+                <ul>
+                    <li><a href="index.html">Noticias</a></li>
+                    <li><a href="#">Formula 1</a></li>
+                    <li><a href="#">Dakar</a></li>
+                    <li><a href="#">Rally</a></li>
+                    <li><a href="#">Moto GP</a></li>
+                    <li><a href="#">Indy car</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr style="width: 95%;">
+        <h1>NOTICIAS DEL MUNDO DEL MOTOR</h1>
+        <div class="contenedorfotoheader"><img src="images/bannerh1.png" alt="banner principal" class="fotoheader"></div>
+    </header>
     <main>
         <div class="secciones">
-            <h1>NOTICIAS DEL MUNDO DEL MOTOR</h1>
-            <img src="images/bannerh1.png" alt="banner principal" width="70%">
-            <section>
+            <article>
                 <div class="noticia" id="NoticiaDacia">
                     <div class="imagenNoticia">
                         <a href="articles/dacia.html">
@@ -54,9 +56,9 @@
                         <a href="./articles/dacia.html" class="leermas">Leer más...</a>
                     </div>
                 </div>
-            </section>
+            </article>
 
-            <section>
+            <article>
                 <div class="noticia" id="NoticiaToyota">
                     <div class="imagenNoticia">
                         <a href="articles/toyota.html">
@@ -78,8 +80,8 @@
                         <a href="./articles/toyota.html" class="leermas">Leer más...</a>
                     </div>
                 </div>
-            </section>
-            <section>
+            </article>
+            <article>
                 <div class="noticia" id="NoticiaCupra">
                     <div class="imagenNoticia">
                         <a href="articles/cupra.html">
@@ -100,8 +102,8 @@
                         <a href="./articles/cupra.html" class="leermas">Leer más...</a>
                     </div>
                 </div>
-            </section>
-            <section>
+            </article>
+            <article>
                 <div class="noticia" id="NoticiaMercedes">
                     <div class="imagenNoticia">
                         <picture>
@@ -119,8 +121,8 @@
                         <a href="#" class="leermas">Leer más...</a>
                     </div>
                 </div>
-            </section>
-            <section>
+            </article>
+            <article>
                 <div class="noticia" id="NoticiaSeat">
                     <div class="imagenNoticia">
                         <picture>
@@ -138,8 +140,8 @@
                         <a href="#" class="leermas">Leer más...</a>
                     </div>
                 </div>
-            </section>
-            <section>
+            </article>
+            <article>
                 <div class="noticia" id="NoticiaFerrari">
                     <div class="imagenNoticia">
                         <picture>
@@ -157,19 +159,15 @@
                         <a href="#" class="leermas">Leer más...</a>
                     </div>
                 </div>
-            </section>
-            <section>
+            </article>
+            <article>
                 <div class="noticia" id="NoticiaAston">
                     <div class="imagenNoticia">
-<<<<<<< HEAD
                         <picture>
                             <source media="(max-width: 799px)" srcset="images/smallimg/logoAmartin (Teléfono).png">
                             <source media="(min-width: 800px)" srcset="images/logoAmartin.png">
                             <img src="images/logoAmartin.png" alt="logo de aston martin">
                         </picture>
-=======
-                        <a href="articles/amartin.html"><img src="images/logoAmartin.png" alt="logo de aston martin" class="amartin"></a>
->>>>>>> 695cb1b52c12ea2bf2a2697cb379f7049cf145b9
                     </div>
                     <div class="textoNoticia">
                         <a href="articles/amartin.html" style="text-decoration: none; color: inherit;"><h2>ASTON MARTIN</h2></a>
@@ -183,8 +181,8 @@
                         <a href="articles/amartin.html" class="leermas">Leer más...</a>
                     </div>
                 </div>
-            </section>
-            <section>
+            </article>
+            <article>
                 <div class="noticia" id="NoticiaMcLaren">
                     <div class="imagenNoticia">
                         <picture>
@@ -206,7 +204,7 @@
                         <a href="#" class="leermas">Leer más...</a>
                     </div>
                 </div>
-            </section>
+            </article>
         </div>
         <aside>
             <div class="busqueda">
@@ -218,7 +216,7 @@
             </div>
             <div class="mininoticia">
                 <picture>
-                    <source media="(max-width: 799px)" srcset="images/smallimg/mininotica2(Teléfono).jpg">
+                    <source media="(max-width: 799px)" srcset="images/smallimg/mininotica2 (Teléfono).jpg">
                     <source media="(min-width: 800px)" srcset="images/mininotica2.jpg">
                     <img src="images/mininotica2.jpg" alt="Laguna seca">
                 </picture>
@@ -260,8 +258,29 @@
             </div>
         </aside>
     </main>
-    <footer></footer>
     <a href="#inicio" class="subirboton"><div class="subir"><img src="images/uparrow.png" alt="flecha arriba" class="imagenarriba"></div></a>
+    <footer>
+        <div class="contenedorfooter">
+            <div class="foot1">
+                Información adicional:
+                <ul>
+                    <li>Alumno 1: Fran Rodríguez Toro</li>
+                    <li>Alumno 2: David Peña Fierro</li>
+                    <li>Alumno 3: Manuel Gomez Paez</li>
+                </ul>
+                <p>
+                    Asignatura: Lenguaje de marcas
+                    Curso: 23/24
+                </p>
+            </div>
+            <div class="foot2">
+                Síguenos:
+                <p>&nbsp;<box-icon type='logo' name='instagram'></box-icon> Instagram</p>
+                <p>&nbsp;<box-icon type='logo' name='facebook-circle'></box-icon> Facebook</p>
+                <p>&nbsp;<box-icon type='logo' name='twitter'></box-icon> Twitter</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
