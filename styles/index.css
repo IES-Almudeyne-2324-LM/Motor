@@ -18,15 +18,12 @@ body {
 }
 .logobanner{
     width: 4%;
-    margin: 0;
 }
-.contenedorfotoheader{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.logobannerh1 *{
+    width: 50%;
 }
-.fotoheader{
-    width: 70%;
+.contenedorfotoheader picture{
+margin-left: 26%;
 }
 .navegacion {
     width: 100%;
