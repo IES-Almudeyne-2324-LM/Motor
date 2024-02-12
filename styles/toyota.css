@@ -64,3 +64,37 @@ article{
     margin: 2rem;
     max-width: 75%;
 }
+footer{
+    display: grid;
+    place-items: center;
+    background-color: rgb(228, 223, 223);
+    padding-top: 1rem;
+    border-top: 1px solid black;
+    font-size: 1.3em;
+}
+.contenedorfooter{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+#foot1{
+    flex: 4;
+}
+#foot2{
+    flex: 2;
+}
+.foot2 p{
+    display: flex;
+    align-items: center;
+}
+.instagram:hover{
+    color: rgb(246, 3, 185);
+}
+
+.facebook:hover{
+    color: blue;
+}
+
+.twitter:hover{
+    color: cornflowerblue;
+}
