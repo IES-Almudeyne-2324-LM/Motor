@@ -16,6 +16,10 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+.logobanner{
+    width: 4%;
+    margin: 0;
+}
 .contenedorfotoheader{
     width: 100%;
     display: flex;
