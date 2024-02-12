@@ -224,6 +224,7 @@ footer{
     background-color: rgb(228, 223, 223);
     padding-top: 1rem;
     border-top: 1px solid black;
+    font-size: 1.3em;
 }
 .contenedorfooter{
     display: flex;
@@ -239,4 +240,15 @@ footer{
 .foot2 p{
     display: flex;
     align-items: center;
+}
+.instagram:hover{
+    color: rgb(246, 3, 185);
+}
+
+.facebook:hover{
+    color: blue;
+}
+
+.twitter:hover{
+    color: cornflowerblue;
 }
