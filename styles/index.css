@@ -206,6 +206,19 @@ main aside {
 picture *{
     width: 300%;
 }
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+table td, th{
+    border: 1px solid black;
+}
+.grisoscuro{
+    background-color: rgb(174, 174, 174);
+}
+.grisclaro{
+    background-color: rgb(227, 225, 225);
+}
 footer{
     display: grid;
     place-items: center;
