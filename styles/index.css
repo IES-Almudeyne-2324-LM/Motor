@@ -30,9 +30,9 @@ margin-left: 26%;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-color: rgb(228, 223, 223);
+    border-bottom: 1px solid black;
 }
-
 .banner {
     width: 15%;
     height: 10%;
@@ -92,19 +92,6 @@ h1 {
     place-items: center;
 }
 
-.secciones section {
-    width: 99%;
-    margin: 10px;
-    /* border: 1px solid #000000;*/
-}
-
-.secciones section p {
-    margin: 10px;
-}
-
-.secciones section H2 {
-    margin: 10px;
-}
 
 main aside {
     flex: 2;
