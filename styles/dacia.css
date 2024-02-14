@@ -99,3 +99,25 @@ footer{
 .twitter:hover{
     color: cornflowerblue;
 }
+
+@media only screen and (max-width: 601px){
+    .navegacion{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        font-size: 1em;
+    }
+}
