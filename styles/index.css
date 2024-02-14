@@ -30,7 +30,7 @@ margin-left: 26%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(228, 223, 223);
+    background-color: #fcefef;
     border-bottom: 1px solid black;
 }
 .banner {
@@ -239,7 +239,7 @@ table td, th{
 footer{
     display: grid;
     place-items: center;
-    background-color: rgb(228, 223, 223);
+    background-color: #fcefef;
     padding-top: 1rem;
     border-top: 1px solid black;
     font-size: 1.3em;
