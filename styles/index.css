@@ -219,6 +219,23 @@ table td, th{
 .grisclaro{
     background-color: rgb(227, 225, 225);
 }
+.NoticiasHoy{
+    background-color: rgb(201, 243, 255) !important;
+    padding: 1%;
+}
+.NoticiasSemanales{
+    background-color: rgb(247, 255, 172) !important;
+    padding: 1%;
+}
+.NoticiasMensuales{
+    background-color: rgba(219, 168, 208, 0.93) !important;
+    padding: 1%;
+}
+
+
+
+/* FOOTER */
+
 footer{
     display: grid;
     place-items: center;
