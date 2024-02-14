@@ -67,171 +67,22 @@ nav ul li a:hover {
 
 
 }
-
+/*---------------------------------------------*/
 main {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 1%;
-}
-
-.leermas:hover {
-    color: red;
-    text-decoration: underline red;
-}
-
-h1 {
-    text-align: center;
-}
-
-.secciones {
-    /* border: 1px solid #000000; */
-    flex: 4;
     margin: 1%;
-    display: grid;
-    place-items: center;
-}
-
-
-main aside {
-    flex: 2;
-    margin: 1%;
-}
-
-.noticia {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    font-size: 20px;
-}
-
-.dacia {
-    width: 430%;
-}
-
-.imagenNoticia {
-    width: 20%;
-    display: flex;
-    align-items: center;
-}
-
-.textoNoticia {
-    width: 80%;
-}
-
-.textoNoticia h2:hover {
-    color: red;
-    border-bottom: red 1px solid;
-}
-
-.seat {
-    width: 450%;
-}
-
-.mercedes {
-    width: 430%;
-}
-
-.cupra {
-    width: 430%;
-}
-
-.toyota {
-    width: 500%;
-}
-
-.ferrari {
-    width: 380%;
-}
-
-.amartin {
-    width: 450%;
-}
-
-.mclaren {
-    width: 380%;
-}
-
-.busqueda {
-    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 1em;
 }
 
-.formbusqueda {
+article{
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 95%;
-}
-
-.textobusqueda {
-    width: 95%;
-    border: none;
-    border-bottom: 1px solid #000;
-}
-
-.imgbusqueda {
-    width: 5%;
-}
-
-.mininoticia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    margin: 1%;
-}
-.mininoticia img {
-    width: 50%;
-}
-.subirboton{
-    display: flex;
-    justify-content: end;
-}
-.subir{
-    width: 3em;
-    border: 2px solid black;
-    border-radius: 100%;
-    height: 3em;
-    margin: 1%;
-}
-.imagenarriba{
-    width: 90%;
-    display: block;
-    margin: auto;
-    
+    max-width: 70%;
 }
 picture *{
     width: 300%;
 }
-table{
-    border-collapse: collapse;
-    text-align: center;
-}
-table td, th{
-    border: 1px solid black;
-}
-.grisoscuro{
-    background-color: rgb(174, 174, 174);
-}
-.grisclaro{
-    background-color: rgb(227, 225, 225);
-}
-.NoticiasHoy{
-    background-color: rgb(201, 243, 255) !important;
-    padding: 1%;
-}
-.NoticiasSemanales{
-    background-color: rgb(247, 255, 172) !important;
-    padding: 1%;
-}
-.NoticiasMensuales{
-    background-color: rgba(219, 168, 208, 0.93) !important;
-    padding: 1%;
-}
-
 
 
 /* FOOTER */
