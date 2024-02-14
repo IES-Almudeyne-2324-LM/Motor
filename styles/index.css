@@ -214,22 +214,37 @@ table td, th{
     border: 1px solid black;
 }
 .grisoscuro{
-    background-color: rgb(174, 174, 174);
+    background-color: #aeaeae;
 }
 .grisclaro{
-    background-color: rgb(227, 225, 225);
+    background-color: #e3e1e1;
 }
 .NoticiasHoy{
-    background-color: rgb(201, 243, 255) !important;
+    background-color: #c9f3ff !important;
     padding: 1%;
+}
+.articulo1{
+    background-color: #def7fe;
+    padding: 1%;
+    border-radius: 10px;
 }
 .NoticiasSemanales{
-    background-color: rgb(247, 255, 172) !important;
+    background-color: #f7ffac !important;
     padding: 1%;
 }
-.NoticiasMensuales{
-    background-color: rgba(219, 168, 208, 0.93) !important;
+.articulo2{
+    background-color: #f7fdc4;
     padding: 1%;
+    border-radius: 10px;
+}
+.NoticiasMensuales{
+    background-color: #dba8d0ed !important;
+    padding: 1%;
+}
+.articulo3{
+    background-color: #eacae3ed;
+    padding: 1%;
+    border-radius: 10px;
 }
 
 
