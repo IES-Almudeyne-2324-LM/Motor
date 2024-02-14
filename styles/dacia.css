@@ -8,6 +8,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: "Nunito Sans", sans-serif;
+    overflow-x: hidden;
 }
 
 .navegacion {
@@ -55,13 +56,13 @@ nav ul li a:hover {
 
 main {
     width: 100%;
-    display: flex;
+    max-width: 90%;
+    margin: 2%;
     justify-content: center;
     gap: 1%;
 }
 
 article{
-    margin: 2rem;
     max-width: 75%;
 }
 footer{
