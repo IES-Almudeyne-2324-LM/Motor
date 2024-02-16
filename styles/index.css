@@ -4,6 +4,9 @@
     color: white;
     background-color: red;
 }
+*{
+    scroll-behavior: smooth;
+}
 
 html {
     height: 100%;
@@ -13,9 +16,9 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: "Nunito Sans", sans-serif;
-    scroll-behavior: smooth;
     overflow-x: hidden;
 }
+/* HEADER Y NAV*/
 .logobanner{
     width: 4%;
 }
@@ -60,14 +63,17 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     color: #000;
+    font-size: 1.2em;
 }
 
 nav ul li a:hover {
-    text-decoration: underline red;
-
-
+    color: red;
+}
+.user:hover{
+    color: red;
 }
 
+/* MAIN */
 main {
     width: 100%;
     display: flex;
@@ -189,13 +195,19 @@ main aside {
 .subirboton{
     display: flex;
     justify-content: end;
+    width: 3em;
+}
+.contenedorsubir{
+    display: flex;
+    justify-content: end;
 }
 .subir{
     width: 3em;
     border: 2px solid black;
     border-radius: 100%;
     height: 3em;
-    margin: 1%;
+    margin: 2%;
+    margin-bottom: 30%;
 }
 .imagenarriba{
     width: 90%;
@@ -255,7 +267,7 @@ footer{
     display: grid;
     place-items: center;
     background-color: #fcefef;
-    padding-top: 1rem;
+    padding-top: 1em;
     border-top: 1px solid black;
     font-size: 1.3em;
 }
@@ -301,6 +313,9 @@ footer{
     main{
         display: flex;
         flex-direction: column;
+    }
+    .contenedorsubir{
+        justify-content: center;
     }
     footer{
         font-size: 1em;
