@@ -35,9 +35,44 @@
     <main>
         <h1>Formulario de registro</h1>
         <div class="contenedorform">
-            <form action="mailto:">
-                <button type="reset">Restablecer</button>
-                <button type="submit">Enviar</button>
+            <form action="mailto:elmotoristta1daw@yopmail.com">
+                <fieldset>
+                    <legend>Información personal</legend>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required autofocus placeholder="Escribe tu nombre...">
+
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña" required placeholder="Escribe tu contraseña...">
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="Escribe tu correo...">
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu correo...">
+                </fieldset>
+                <fieldset>
+                    <legend>Preferencias</legend>
+                    <label for="intereses">Intereses:</label>
+                    <label for="deporte">Deporte</label>
+                    <input type="checkbox" id="deporte" name="intereses" value="deporte">
+                    <label for="lectura">Lectura</label>
+                    <input type="checkbox" id="lectura" name="intereses" value="lectura">
+                    <label for="viajes">Viajes</label>
+                    <input type="checkbox" id="viajes" name="intereses" value="viajes">
+                </fieldset>
+                <fieldset>
+                    <legend>Opciones</legend>
+                    <label for="opciones">Selecciona una opción:</label>
+                    <select id="opciones" name="opciones">
+                        <option value="opcion1">Recibir noticias</option>
+                        <option value="opcion2">No recibir noticias</option>
+                    </select>
+                </fieldset>
+                <div class="botonesform">
+                    <button type="reset">Restablecer</button>
+                    <button type="submit">Enviar</button>
+                </div>
             </form>
         </div>
     </main>
