@@ -91,12 +91,6 @@ form {
     margin: 2%;
     border-radius: 10px;
 }
-.generoform{
-    display: flex;
-    justify-content: center;
-    gap: 2%;
-    margin: 1em;
-}
 input {
     border: none;
     border-bottom: 2px solid red;
@@ -260,5 +254,10 @@ footer {
 
     footer {
         font-size: 1em;
+    }
+
+    .generoform{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
